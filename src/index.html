@@ -1,18 +1,140 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
-	  	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
-	    <meta charset="utf-8">
-	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	    <meta name="renderer" content="webkit">
+		<!--<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="renderer" content="webkit">
 		<title></title>
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/candou_index.css" />
 	</head>
+
 	<body>
+		<header id="header">
+			<div class="header-top-bg">
+				<div class="container">
+					<div class="header-top-left pull-left">
+						<span>喵，欢迎来到春蚕商城！</span>
+						<a href="#">去卖家中心</a>
+					</div>
+					<div class="header-top-right pull-right">
+						<ul>
+							<li><span>你好，<a href="">请登录</a></span></li>
+							<li><a href="">免费注册 <span class="line">|</span></a></li>
+							<li><a href="">会员中心 <span class="arrow"></span><span class="line">|</span></a></li>
+							<li><a href="">手机商城 <span class="arrow"></span><span class="line">|</span></a></li>
+							<li><a href="">商家入驻 <span class="arrow"></span></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="nav">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-3">
+							<div class="logo">
+								<img src="img/logo.png"/>
+							</div>
+						</div>
+						<div class="col-xs-6">
+							<div class="row">
+								<div class="col-xs-12 search-top">
+									<div class="input-group input-group-lg">
+									  <input type="search" class="form-control" placeholder="请输入搜索关键字！" ria-describedby="basic-addon2">
+									  <span class="input-group-addon" id="basic-addon2">搜索</span>
+									</div>
+									<div class="qrcode">
+										<img src="img/QRCode.png"/>
+									</div>									
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-12 search-bottom">
+									<span>热门搜索：</span>
+									<ul>
+										<li>电风扇</li>
+										<li>短裤</li>
+										<li>男凉鞋</li>
+										<li>蚊帐</li>
+										<li>蓝牙耳机</li>
+										<li>运动鞋</li>
+										<li>洗衣液</li>
+										<li>防晒衣</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-3">
+							<div class="btn-cart">
+								<div class="btn-group">
+								  <button class="btn btn-default btn-lg dropdown-toggle" type="button" 
+								  			data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								    <img src="img/icon_cart.png"/>&nbsp;&nbsp;</span>购物车<span class="badge">10</span> &nbsp;&nbsp;&nbsp;&nbsp;<span class="caret"></span>
+								    
+								  </button>
+								  <ul class="dropdown-menu">
+								    <li>产品1</li>
+								    <li>产品2</li>
+								    <li>产品3</li>
+								    <li>产品4</li>
+								    <li>产品5</li>
+								  </ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</header>
+	  	<div class="main-navbar">
+	  		 <div class="container">
+	   		 	<div class="row">
+	   		 		<div class="col-xs-3 btn_all_type">
+	   		 			<img src="img/btn_all_type.png"/>
+	   		 		</div>
+	   		 		<div class="col-xs-6">
+	   		 			<ul>
+	   		 				<li><a href="#">首页</a></li>
+	   		 				<li><a href="#">春蚕自营</a></li>
+	   		 				<li><a href="#">旅游</a></li>
+	   		 				<li><a href="#">汽车专题</a></li>
+	   		 			</ul>
+	   		 		</div>
+	   		 		<div class="col-xs-3">
+	   		 			<img class="btn-join pull-right" src="img/btn_join.png"/>
+	   		 		</div>
+	   		 	</div>
+	  		</div>
+	  	</div>
+		<div class="ad-big-img">
+			<img class="ad-bg" src="img/jumbotron.png"/>
+			<div class="container">
+		    	<div class="btn-buy-sell">
+		    		<div class="buy btn-ad">
+		    			<img src="img/buy.png"/>
+		    		</div>
+		    		<div class="sell btn-ad">
+		    			<img class="pull-right" src="img/sell.png"/>
+		    		</div>
+		    	</div>
+		    	
+		    	<div class="tipbox">
+		    		<span class="badge">!</span> <span>重要提示</span>
+		    		<p>您所在平台的交易中，平台会以每笔交易总金额的<span>10%</span>的比例来收取手续费</p>
+		    	</div>
+			</div>s
+		</div>
+		
 		
 		
 		<script src="js/jquery-2.1.1.min.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
 	</body>
+
 </html>

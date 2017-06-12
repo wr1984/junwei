@@ -1,0 +1,270 @@
+.header-top-bg {
+	height: 25px;
+	background: url(../img/header_top_bg.png) repeat-x;
+}
+
+.header-top-left>a {
+	color: #c81623;
+}
+
+.header-top-right .arrow {
+	padding: 0 5px 6px;
+	display: inline-block;
+	width: 7px;
+	height: 4px;
+	background: url(../img/header_top_arrow.png) no-repeat;
+}
+
+.header-top-right .line {
+	display: inline-block;
+	color: #999999;
+}
+
+.header-top-right ul li {
+	float: left;
+	padding: 0 5px;
+}
+
+#header .nav {
+	height: 125px;
+}
+
+.nav .logo {
+	width: 300px;
+	padding-top: 10px;
+}
+
+.search-bottom {
+	line-height: 36px;
+}
+
+.search-bottom span {
+	float: left;
+	font-size: 16px;
+}
+
+.search-bottom ul li {
+	line-height: 15px;
+	float: left;
+	padding-left: 8px;
+	padding-right: 8px;
+	margin-top: 10px;
+	font-size: 12px;
+}
+
+.search-bottom ul li:not(:last-child) {
+	border-right: 1px solid #999999;
+}
+
+.search-top,
+.search-bottom {
+	margin-left: -15px;
+}
+
+.search-top {
+	margin-top: 35px;
+	padding-right: 40px;
+}
+
+.search-top .form-control {
+	border: 2px solid #c81623;
+	/*height: 45px;*/
+	width: 400px;
+	border-top-left-radius: 6px;
+	border-bottom-left-radius: 6px;
+}
+
+.search-top .input-group-addon {
+	border: 2px solid #c81623;
+	/*height: 45px;*/
+	width: 85px;
+	color: #FFFFFF;
+	background-color: #c81623;
+	font-weight: bold;
+	font-size: 16px;
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
+
+
+/*.search-top .qrcode{
+	position: relative;
+}*/
+
+.search-top .qrcode {
+	position: absolute;
+	top: 10px;
+	right: 50px;
+}
+
+.btn-group-lg>.btn,
+.btn-lg {
+	padding: 5px 8px;
+	font-size: 18px;
+	line-height: 1.3333333;
+	border-radius: 2px;
+	font-weight: 500;
+}
+
+.caret {
+	margin-left: 20px;
+}
+
+.btn-cart {
+	margin-top: 35px;
+}
+
+.btn-cart .badge {
+	position: absolute;
+	top: -10px;
+	right: 30px;
+	background-color: #ff4200;
+	padding: 5px;
+	border-radius: 50%;
+}
+
+.main-navbar {
+	height: 37px;
+	background-color: #c81623;
+}
+
+.btn_all_type>img {
+	margin-top: -11px;
+}
+
+.main-navbar ul {
+	margin-left: -120px;
+}
+
+.main-navbar ul li {
+	margin-top: 8px;
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.main-navbar ul li:not(:last-child) {
+	border-right: 1px solid #d95c65;
+}
+
+.main-navbar ul li a {
+	font-size: 16px;
+	font-weight: 800;
+	line-height: 20px;
+	color: #FFFFFF;
+}
+
+.main-navbar .btn-join {
+	margin-top: -11px;
+}
+
+.ad-big-img {
+	height: 502px;
+	/*background: url(../../img/candou/jumbotron.png) no-repeat;*/
+	position: relative;
+}
+
+.ad-big-img .ad-bg {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.btn-buy-sell {
+	height: 110px;
+	width: 630px;
+	position: absolute;
+	z-index: 10;
+	border: 4px solid #FFFFFF;
+	border-bottom-left-radius: 55px;
+	border-top-left-radius: 55px;
+	border-bottom-right-radius: 55px;
+	border-top-right-radius: 55px;
+	background-color: #aa000c;
+	top: 303px;
+	left: 50%;
+	transform: translateX(-30%);
+	overflow: hidden;
+}
+
+.btn-buy-sell .buy {
+	float: right;
+	width: 50%;
+	height: 100%;
+	background-color: #d12700;
+}
+
+.btn-buy-sell .sell {
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+
+.btn-ad:hover {
+	cursor: pointer;
+	/*background-color: #d12700;*/
+	
+}
+
+.ad-big-img .tipbox {
+	position: absolute;
+	z-index: 10;
+}
+
+.tipbox {
+	/*display: none;*/
+	width: 350px;
+	height: 130px;
+	padding: 15px;
+	background-color: #FFFFFF;
+	box-shadow: 0 0 5px #000;
+	border-radius: 10px;
+	position: absolute;
+	top: 430px;
+	left: 50%;
+	transform: translateX(-30%);
+}
+
+.tipbox .badge {
+	background-color: #ff0000;
+}
+
+.tipbox span:nth-child(2) {
+	color: #FF0000;
+	font-weight: bold;
+}
+
+.tipbox p {
+	color: #999999;
+	margin-top: 15px;
+}
+
+.tipbox p span {
+	color: #FF0000;
+	font-weight: bold;
+}
+
+.tipbox:before,
+.tipbox:after {
+	content: "";
+	position: absolute;
+	border-style: dashed dashed solid dashed;
+	line-height: 1;
+	display: inline-block;
+}
+
+.tipbox:after {
+	left: 75px;
+	border-color: transparent transparent #D7DADB;
+	border-width: 11px;
+	top: -22px;
+	z-index: 1080
+}
+
+.tipbox:before {
+	left: 76px;
+	border-color: transparent transparent #FFF;
+	border-width: 10px;
+	top: -19px;
+	z-index: 1081
+}
